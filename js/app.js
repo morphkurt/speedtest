@@ -119,7 +119,7 @@ window.onload = function () {
                 type: 'line',
                 data: {
                     datasets: [{
-                        label: 'Weekly Ping Results',
+                        label: 'Weekly Ping Packet Loss',
                         data: d.data,
                         backgroundColor: [
                             'rgba(255, 99, 132, 0.2)',
