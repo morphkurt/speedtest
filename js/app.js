@@ -116,7 +116,7 @@ window.onload = function () {
         .then(response => response.json())
         .then(d => {
             var myChart = new Chart(ctx3, {
-                type: 'line',
+                type: 'bar',
                 data: {
                     datasets: [{
                         label: 'Weekly Ping Packet Loss',
