@@ -160,10 +160,10 @@ window.onload = function () {
                         callbacks: {
                             title: function(tooltipItem, data) {
                                 //Return value for title
-                                return tooltipItem.xLabel.toFixed(2);
+                                return tooltipItem.xLabel;
                             },
                             label: function(tooltipItem, data) {
-                                return Number(tooltipItem.yLabel) + '% ' + moment(tooltipItem.xLabel).format('DD/MM HH:mmA')
+                                return Number(tooltipItem.yLabel).toFixed(2) + '% ' + moment(tooltipItem.xLabel).format('DD/MM HH:mmA')
                             }
                         }
                     }  
