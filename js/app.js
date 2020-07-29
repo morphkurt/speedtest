@@ -63,7 +63,7 @@ window.onload = function () {
 				type: 'matrix',
 				data: {
 					datasets: [{
-						label: 'My Matrix',
+						label: 'Monthly Speed Matrix',
 						data: d.data,
 						backgroundColor: function(ctx) {
 							var value = ctx.dataset.data[ctx.dataIndex].v;
