@@ -175,10 +175,6 @@ window.onload = function () {
                         xAxes: [{
                             type: 'time',
                             distribution: 'linear'
-                        }],
-                        yAxes: [{
-                            type: 'logarithmic',
-                            distribution: 'linear'
                         }]
                     },
                     elements: {
