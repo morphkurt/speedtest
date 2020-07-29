@@ -1,18 +1,31 @@
 <html>
+
 <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0-rc.1/Chart.bundle.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-matrix/dist/chartjs-chart-matrix.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
-    <script src="js/app.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1344482-6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-1344482-6');
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0-rc.1/Chart.bundle.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-matrix/dist/chartjs-chart-matrix.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+  <script src="js/app.js"></script>
 
 </head>
-<body>
-    
-<div class="container" style="position: relative; height:50vh; width:80vw">
-  <canvas id="7days"></canvas>
-  <canvas id="30days"></canvas>
-  <canvas id="7daysping"></canvas>
 
-</div>
+<body>
+
+  <div class="container" style="position: relative; height:50vh; width:80vw">
+    <canvas id="7days"></canvas>
+    <canvas id="30days"></canvas>
+    <canvas id="7daysping"></canvas>
+
+  </div>
 </body>
+
 </html>
